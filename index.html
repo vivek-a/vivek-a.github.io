@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <title>Personel WebPage</title>
+	    <link rel="stylesheet" href="css/foundation.min.css" />
+	    <link rel="stylesheet" href="css/my.css" />
+		<link rel='stylesheet' href='css/immersive-slider.css'>
+	    <!-- <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'> -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+		
+	    <script src="js/vendor/jquery.js"></script>
+  		<script src="js/foundation/foundation.js"></script>
+  		<script src="js/foundation/foundation.magellan.js"></script>
+		<script src="js/foundation/foundation.orbit.js"></script>
+  		<script type="text/javascript" src="js/foundation/pdfobject.js"></script>
+		<script type="text/javascript" src="js/immersive-slider.min.js"></script>
+  		<script type="text/javascript">
+			window.onload = function (){
+			};
+		</script>
+	</head>
+
+	<body>
+		<a name="home"></a>
+		<div>
+		<div  
+			class="magellan-container" 
+			data-magellan-expedition="fixed" 
+			data-magellan-destination="home" 			
+		>
+			<dl class="sub-nav">
+
+			<section>
+
+			<div class="left">
+			    <dd data-magellan-arrival="home" ><a href="#home">Home</a></dd>
+			    <dd data-magellan-arrival="resume"><a href="#resume">Resume</a></dd>
+			    <dd data-magellan-arrival="projects"><a href="#projects">Projects</a></dd>
+			    <dd data-magellan-arrival="contact" ><a href="#contact">Contact</a></dd>
+			</div>
+
+			<div class="right"  >
+				<dd><a target='_blank' href="https://plus.google.com/u/0/114494874505738794163"><img id="gm"   src="files/images/linkedin.png"></a></dd>
+				<dd><a target='_blank' href="https://plus.google.com/u/0/114494874505738794163"><img id="gm"  src="files/images/google_plus.png"></a></dd>
+				<dd><a target='_blank' href="https://www.facebook.com/vivekatulkar93"><img id="fb"  src="files/images/facebook.png"></a></dd>
+				<dd><a target='_blank' href="https://www.facebook.com/vivekatulkar93"><img id="fb"  src="files/images/twitter.png"></a></dd>
+				<dd><a target='_blank' href="https://plus.google.com/u/0/114494874505738794163"><img id="gm"   src="files/images/skype.png"></a></dd>
+			</div>
+
+			</section>
+
+			</dl>
+		</div>
+
+		</div>
+
+		<div >
+		  	<div id="main" class="panel">
+				<div id="info" class="panel">
+					<!-- <div id='pic_div' class='panel'> -->
+						<img  id="mypic" src="files/images/my-pic.jpg" >
+						<!-- width="300px" style="vertical-align:top" -->
+					<!-- </div> -->
+					<div id="intro" class="panel" >
+						<p><b>Welcome</b> to my webpage.This is <b>Vivek Atulkar</b>.</p>
+						<p>I'm in final year and pursuing my B.Tech degree in</p>
+						<p>Computer Science and Engineering Department at IIT Bombay.</p>
+						<p>My hometown is Bhopal, The City of Lakes..:)</p>
+					</div>
+				</div>
+				<hr>
+				<h3 data-magellan-destination="resume" >Resume</h3>
+			  	<a name="resume"></a>
+				<div class="pdf panel">
+					<!--  <embed  width="100%" height="580px" src="files/images/vivek_110050039.pdf"> -->
+					<object id='pdf-object' data="files/110050039_vivek.pdf" type="application/pdf">
+					 
+					  <p>It appears you don't have a PDF plugin for this browser.
+					  No biggie... you can <a href="files/110050039_vivek.pdf">click here to
+					  download the PDF file.</a></p>
+					  
+					</object>
+				</div>
+
+				<hr>
+
+				<a name="projects"></a>
+				<h3 data-magellan-destination="projects">Projects</h3>
+				<div class="main">
+					<div class="page_container" style="height:450px">
+						<div id="immersive_slider">
+
+						  <div class="slide" data-blurred="files/images/anime.png">
+						    <div class="content">
+						      <!-- <h2><a href="http://www.bucketlistly.com" target="_blank">BucketListly</a></h2> -->
+						      <p style="color:white">
+						      Visual Representation of ADTs
+						       A program that visualize the basic methods of ADTs using Gtk+ library such as: BinaryTree : insertion & deletion AVLTree : insertion including singlerotation & doubleRotation Priority_queue(MinHeap) : insertion(percolateUp) & deleteMin(percolateDown) 
+						      Also to help understand the process,there is a delay b/w the steps.</p>
+						    </div>
+						    <div style="color:white">
+						      <!-- <a href="http://www.bucketlistly.com" target="_blank"> -->
+						        <img src="files/images/anime.png" alt="Slider 1">
+						      <!-- </a> -->
+						    </div>
+						  </div>
+
+						  <div class="slide" data-blurred="files/images/9-Ball.png">
+						    <div class="content">
+						      <!-- <h2><a href="http://www.bucketlistly.com/apps" target="_blank">BucketListly Apps</a></h2> -->
+						      <p style="color:white">
+						      9 Ball Pool
+								Made a computer billiards game using PLT Scheme programming language
+								in Dr.Racket interface.Used world feature in Dr.Racket for implementation of
+								graphics. Implemented AI using mini-max algorithm for choosing of shots,
+								to be played by computer.
+								Made interface for the game using Dr.Racket's graphics legacy library.</p>
+						    </div>
+						    <div class="image">
+						     <!-- <a href="http://www.bucketlistly.com/apps" target="_blank">  -->
+						     	<img src="files/images/9-Ball.png" alt="Slider 2">
+						     <!-- </a> -->
+						    </div>
+						  </div>
+						  
+						  <div class="slide" data-blurred="files/images/stago.jpg">
+						    <div class="content">
+						      <!-- <h2><a href="http://www.thepetedesign.com" target="_blank">The Pete Design</a></h2> -->
+						      <p style="color:white">
+						      Steganography
+								Completed a Project on steganography in which pictures are used
+								to encrypt secret messages . Worked with data structures in the project
+								and designed appropriate algorithm to encrypt & decrypt data
+								without any significant loss of information from the original image.</p>
+						    </div>
+						    <div class="image">
+						      <!-- <a href="http://www.thepetedesign.com" target="_blank"> -->
+						      	<img src="files/images/stago.jpg" alt="Slider 3">
+						      <!-- </a> -->
+						    </div>
+						  </div>
+
+						  <div class="slide" data-blurred="files/images/calendar.png">
+						    <div class="content">
+						      <!-- <h2><a href="http://www.thepetedesign.com" target="_blank">The Pete Design</a></h2> -->
+						      <p style="color:white">
+						      Calender Utility
+								Made a computer application in C++ of calendar utility which provides user
+								the facility of adding , saving, deleting and looking for the events associated
+								with a particular date. It also displays the calendar of user's choice on the terminal.
+								It mainly deals with file-handling part in C++.
+						      </p>
+						    </div>
+						    <div class="image">
+						      <!-- <a href="http://www.thepetedesign.com" target="_blank"> -->
+						      	<img src="files/images/calendar.png" alt="Slider 4">
+						      <!-- </a> -->
+						    </div>
+						  </div>
+						  
+						  <a href="#" class="is-prev">&laquo;</a>
+						  <a href="#" class="is-next">&raquo;</a>
+						</div>
+					</div>
+				</div>					
+
+				<hr>
+
+				<a name="contact"></a>
+				<h3 data-magellan-destination="contact">Contact Me</h3>
+
+				<div class="panel contact-div" >
+					<div class="panel" >
+						<p>Hostel Address :</p>
+						<p>Room No.3, B-Wing, Hostel 13</p>
+						<p>IIT Bombay, Powai, Mumbai M.H.</p>
+						<p>Pin:400076</p>
+					</div>
+					<div class="panel">
+						<p>Home Address :</p>
+						<p>C-18, Emarald Park City,</p>
+						<p>near AIIMS, Bhopal M.P.</p>
+						<p>Pin:462011</p>
+					</div>
+					<div class="panel">
+						<p>Mail me at :</p>
+						<p>vivekatulkar93@gmail.com</p>
+						<p>vivekatulkar93@cse.iitb.ac.in</p>
+						<p>110050039@iitb.ac.in</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+		$(document).foundation();
+		$(document).ready( function() {
+			$("#immersive_slider").immersive_slider({
+		  		container: ".main"
+			});
+		});
+		</script>
+
+	</body>
+
+</html>
